@@ -1,4 +1,68 @@
 body {
+    font-family: 'Roboto', arial;
 
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.blue-background {
+    background-color: #1F2937;
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-header {
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    font-size: 18px;
+    }
+
+.left-header {
+    font-weight: bolder;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+.blue-content {
+    display: flex;
+}
+
+#maldives {
+    width: 800px;
+    height: 300px;
+    margin-right: 120px;
+    padding: 80px;
+    flex: 1;
+    
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 0px;
+    color: #f9faf8;
+    
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
